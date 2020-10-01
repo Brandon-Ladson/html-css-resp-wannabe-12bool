@@ -5,21 +5,66 @@
   box-sizing: border-box;
 }
 
+body{
+  font-size: 15px;
+}
+
 /* regole righe */
 [class*="col-"]{
-  min-height: 150px;
-  /* background-color: lightblue;
+  /* min-height: 150px;
+  background-color: lightblue;
   border: 1px solid #000;
   position: relative; */
 }
 
+/* regole steps */
+#steps .row{
+  margin-bottom: 100px;
+}
+
+/* regole why */
+#why .row .first,
+#why .row .second,
+#why .row .third {
+  margin-top: 60px;
+}
+
+#why .row{
+  margin-top: 0;
+}
+
+#why .row img {
+  background-color: #428bca;
+  border-radius: 50%;
+  padding: 30px;
+  height: 250px;
+}
+
+#why .row p{
+  margin-bottom: 10px;
+}
+
+/* regole comuni */
+section.grey{
+  background-color: #f9f9f9;
+}
+
 .row{
   text-align: center;
-  padding: 20px 0;
+  margin-top: 100px;
 }
 
 img{
   max-width: 100%;
   height: auto;
   height: 200px;
+}
+
+h1{
+  font-size: 2.1em;
+  margin-bottom: 20px;
+}
+
+h3{
+  margin: 20px 0;
 }
