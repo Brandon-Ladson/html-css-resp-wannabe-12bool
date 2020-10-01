@@ -96,3 +96,31 @@ h3{
     font-size: 2em;
   }
 }
+
+/* regole tablet */
+@media all and (min-width: 769px) and (max-width: 992px){
+  /* regole righe */
+  .row{
+    width: 90%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  section .row [class*="col-"]{
+    margin-bottom: 20px;
+  }
+
+  /* regole comuni */
+  h1{
+    font-size: 2em;
+  }
+
+  h3{
+    font-size: 1.5em;
+  }
+
+  p{
+    font-size: 1.5em;
+  }
+}
