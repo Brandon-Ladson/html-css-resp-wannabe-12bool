@@ -68,3 +68,31 @@ h1{
 h3{
   margin: 20px 0;
 }
+
+/* regole smartphone */
+@media all and (max-width: 768px){
+  /* regole righe */
+  .row{
+    width: 80%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  section .row [class*="col-"]{
+    margin-bottom: 20px;
+  }
+
+  /* regole comuni */
+  h1{
+    font-size: 3em;
+  }
+
+  h3{
+    font-size: 2em;
+  }
+
+  p{
+    font-size: 2em;
+  }
+}
