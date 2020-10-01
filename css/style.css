@@ -8,7 +8,18 @@
 /* regole righe */
 [class*="col-"]{
   min-height: 150px;
-  background-color: lightblue;
+  /* background-color: lightblue;
   border: 1px solid #000;
-  position: relative;
+  position: relative; */
+}
+
+.row{
+  text-align: center;
+  padding: 20px 0;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+  height: 200px;
 }
