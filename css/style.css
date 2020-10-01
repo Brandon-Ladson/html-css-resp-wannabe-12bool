@@ -1,0 +1,14 @@
+/* regole generali */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* regole righe */
+[class*="col-"]{
+  min-height: 150px;
+  background-color: lightblue;
+  border: 1px solid #000;
+  position: relative;
+}
